@@ -1,0 +1,25 @@
+.grid__1 .grid__2,
+.grid__3,
+.grid__4,
+.grid__5 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid__2 div:nth-child(1) {
+  order: 2;
+}
+
+.grid__itemBig {
+  margin: 10px;
+  width: calc(50% - 20px);
+  height: 500px;
+  background-color: red;
+}
+
+.grid__itemSmall {
+  margin: 10px;
+  width: calc(25% - 20px);
+  height: 500px;
+  background-color: green;
+}
